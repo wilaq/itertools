@@ -35,7 +35,7 @@ macro_rules! impl_cons_iter(
     );
 );
 
-impl_cons_iter!(A, B, C, D, E, F, G, H, I, J, K, L, M,);
+impl_cons_iter!(A, B, C, D, E, F, G, H, I, J, K, L, M, N);
 
 /// An iterator that maps an iterator of tuples like
 /// `((A, B), C)` to an iterator of `(A, B, C)`.
